@@ -10,4 +10,4 @@ Route::get('/test', function () {
 Route::post('/slot/add', [BookingController::class, 'addSlot']);
 Route::get('/slots', [BookingController::class, 'getSlots']);
 Route::post('/book', [BookingController::class, 'book']);
-Route::post('/chat', [ChatController::class, 'chat']);
+// Route::post('/chat', [ChatController::class, 'chat']);
